@@ -27,7 +27,6 @@ class ProductsControllerTest < ActionController::TestCase
       # post :create, product: { description: @product.description, image_url: @product.image_url, price: @product.price, title: @product.title }
       post( :create, product: @update )
     end
-
     assert_redirected_to product_path(assigns(:product))
   end
 
