@@ -16,14 +16,21 @@
   </div>
 
   <div id="columns">
+
     <div id="side">
-      <ul>
-        <li><a href="http://www....">Home</a></li>
-        <li><a href="http://www....">Questions</a></li>
-        <li><a href="http://www....">News</a></li>
-        <li><a href="http://www....">Contact</a></li>
-      </ul>
+      <div id="links">
+        <ul>
+          <li><a href="http://www....">Home</a></li>
+          <li><a href="http://www....">Questions</a></li>
+          <li><a href="http://www....">News</a></li>
+          <li><a href="http://www....">Contact</a></li>
+        </ul>
+      </div>
+      <div id="time">
+        <%= @cur_time_string %>
+      </div>
     </div>
+
     <div id="main">
       <%= yield %>
     </div>  <!-- end id="main" -->

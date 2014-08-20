@@ -47,10 +47,19 @@
   }
 
   #side {
+    position: relative;
     float: left;
     padding: 1em 2em;
     background: #141;
-  }
+
+    /* Nav-column time */
+    #time {
+      color: #bfb;
+      position: absolute;
+      bottom: 2px;
+    }
+
+  }  /* end #side */
 
   ul {
     padding: 0;
